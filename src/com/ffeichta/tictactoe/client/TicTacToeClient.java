@@ -84,7 +84,7 @@ public class TicTacToeClient extends TicTacToe {
 			ipTemp = (String) JOptionPane
 					.showInputDialog(
 							tictactoeFrame,
-							"Type in the IP-Adress of the server:\n(You find it at the bottom of the Server-Window)",
+							"Type in the IP-Address of the server:\n(You find it at the bottom of the Server-Window)",
 							"Tic Tac Toe", JOptionPane.QUESTION_MESSAGE);
 			if (ipTemp == null) {
 				System.exit(0);

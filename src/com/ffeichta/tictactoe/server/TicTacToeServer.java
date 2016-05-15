@@ -119,7 +119,7 @@ public class TicTacToeServer extends TicTacToe {
 			} catch (UnknownHostException e) {
 				TicTacToeException.behandleException(tictactoeFrame, e);
 			}
-			tictactoeFrame.setStatusBarText("IP-Adress: " + ip);
+			tictactoeFrame.setStatusBarText("IP-Address: " + ip);
 			if (isFirstGame) {
 				tictactoeServer.sendSizeToClient();
 			}
